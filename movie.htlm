@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things - Detalles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Menú Lateral -->
+    <div class="menu-lateral">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="logo">
+        <a href="index.html"><i class="fas fa-home"></i></a>
+    </div>
+
+    <!-- Detalles de la Película -->
+    <div class="detalle-portada" style="background-image: url('images/stranger-things.jpg');">
+        <div class="info-detalle">
+            <h1>Stranger Things</h1>
+            <p>2016 | TV-14 | 1 Temporada | HD | 5.1</p>
+            <p>Cuando un niño desaparece, una pequeña ciudad descubre un misterio que involucra experimentos secretos, fuerzas sobrenaturales y una extraña niña.</p>
+            <p><strong>Actores:</strong> Winona Ryder, David Harbour, Matthew Modine</p>
+            <p><strong>Creador:</strong> The Duffer Brothers</p>
+
+            <button class="btn-reproducir"><i class="fas fa-play"></i> Reproducir Temporada 1: Episodio 1</button>
+
+            <ul class="opciones">
+                <li><i class="fas fa-list"></i> Episodios y más</li>
+                <li><i class="fas fa-closed-captioning"></i> Audio y subtítulos</li>
+                <li><i class="fas fa-plus"></i> Agregar a Mi Lista</li>
+                <li><i class="fas fa-star"></i> Calificar este título</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
